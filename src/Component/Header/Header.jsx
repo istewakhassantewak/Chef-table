@@ -56,12 +56,12 @@ const Header = () => {
             </nav>
 
             <div
-                className="flex flex-col justify-center items-center text-center bg-[url('/Rectangle-1.png')] bg-cover bg-center h-[500px] text-white rounded-3xl gap-5">
-                <h2 className="text-5xl font-bold">Discover an exceptional cooking <br /> className tailored for you!</h2>
-                <p className="font-normal text-lg">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding <br /> problems to become an exceptionally well world-className Programmer.</p>
+                className="flex flex-col justify-center items-center text-center bg-[url('/Rectangle-1.png')] bg-cover bg-center h-[500px] text-white rounded-3xl gap-5 p-4">
+                <h2 className="text-3xl md:text-5xl font-bold">Discover an exceptional cooking <br /> className tailored for you!</h2>
+                <p className="font-normal text-sm md:text-lg">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding <br /> problems to become an exceptionally well world-className Programmer.</p>
 
-                <div className="flex justify-center items-center gap-6">
-                    <button className="btn rounded-full bg-[#0BE58A] border-none text-black btn-primary">Explore Now</button>
+                <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+                    <button className="btn rounded-full bg-[#0BE58A] border-none text-black btn-primary"><a href="#our-recipe">Explore Now</a></button>
                     <button className="btn rounded-full bg-transparent border-white text-white btn-primary">Our Feedback</button>
                 </div>
 

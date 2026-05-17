@@ -1,6 +1,7 @@
 import Cooking from "../Cooking/Cooking";
+import Currents from "../Currents/Currents";
 
-const Cookings = ({ cook }) => {
+const Cookings = ({ time, caloriesf, cook, currentCook, currentCooking }) => {
 
     return (
         <div className="bg-base-100 shadow-sm p-6 rounded-2xl">
@@ -20,14 +21,13 @@ const Cookings = ({ cook }) => {
                             </tr>
                         </thead>
                         {
-                            cook.map((details, i) => <Cooking key={i} details={details} i={i + 1}></Cooking>)
+                            cook.map((details, i) => <Cooking key={i} details={details} currentCook={currentCook} i={i + 1}></Cooking>)
                         }
                     </table>
                 </div>
 
             </div>
-            <div>
-            </div>
+            <Currents time={time} caloriesf={caloriesf} currentCook={currentCook} currentCooking={currentCooking}></Currents>
         </div>
     );
 };
