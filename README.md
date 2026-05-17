@@ -64,6 +64,7 @@ Chef-table/
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
+
 🎯 Learning Objectives
 
 This project helped improve skills in:
