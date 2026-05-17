@@ -1,4 +1,3 @@
-````md id="chefx91"
 # 👨‍🍳 Chef Table
 
 A modern and responsive recipe management web application built with **React.js**, **Tailwind CSS**, and **Fetch API**. Users can explore recipes, view cooking details, and manage cooking selections with an interactive user interface.
@@ -53,21 +52,9 @@ npm install
 
 # Run development server
 npm run dev
-````
-
----
-
-## 🖥️ Build for Production
-
-```bash
+🖥️ Build for Production
 npm run build
-```
-
----
-
-## 📁 Project Structure
-
-```bash
+📁 Project Structure
 Chef-table/
 │
 ├── public/
@@ -77,42 +64,25 @@ Chef-table/
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
-```
-
----
-
-## 🎯 Learning Objectives
+🎯 Learning Objectives
 
 This project helped improve skills in:
 
-* React component architecture
-* Props and state management
-* Fetch API integration
-* Event handling in React
-* Responsive UI development using Tailwind CSS
-* Dynamic rendering and data handling
-
----
-
-## 👨‍💻 Author
-
-### Istewak Hassan Tewak
-
-* 🎓 Software Engineering Student at Daffodil International University
-* 💻 Frontend Web Developer
-* 🚀 Passionate about React and Modern Web Technologies
-
----
-
-## ⭐ Support
+React component architecture
+Props and state management
+Fetch API integration
+Event handling in React
+Responsive UI development using Tailwind CSS
+Dynamic rendering and data handling
+👨‍💻 Author
+Istewak Hassan Tewak
+🎓 Software Engineering Student at Daffodil International University
+💻 Frontend Web Developer
+🚀 Passionate about React and Modern Web Technologies
+⭐ Support
 
 If you like this project, consider giving it a ⭐ on GitHub.
 
----
-
-## 📄 License
+📄 License
 
 This project is open-source and available under the MIT License.
-
-```
-```
