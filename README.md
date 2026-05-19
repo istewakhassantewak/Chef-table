@@ -52,8 +52,10 @@ npm install
 
 # Run development server
 npm run dev
+
 🖥️ Build for Production
 npm run build
+
 📁 Project Structure
 Chef-table/
 │
@@ -75,11 +77,13 @@ Fetch API integration
 Event handling in React
 Responsive UI development using Tailwind CSS
 Dynamic rendering and data handling
+
 👨‍💻 Author
 Istewak Hassan Tewak
 🎓 Software Engineering Student at Daffodil International University
 💻 Frontend Web Developer
 🚀 Passionate about React and Modern Web Technologies
+
 ⭐ Support
 
 If you like this project, consider giving it a ⭐ on GitHub.
